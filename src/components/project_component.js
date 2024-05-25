@@ -5,6 +5,7 @@ import projectim1 from "../assets/img/Kanban.png";
 import projectim2 from "../assets/img/Forkify.png";
 import projectim3 from "../assets/img/ringoffire.png";
 import projectim4 from "../assets/img/Slack.png";
+import projectim5 from "../assets/img/Elpololoco.png";
 import TrackVisibility from "react-on-screen";
 import 'animate.css'
 export const Projects = () => {
@@ -14,6 +15,12 @@ export const Projects = () => {
         description: "Javascript",
         imgUrl: projectim2,
         https: "silver-begonia-2336f4.netlify.app/"
+    },
+    {
+        title: "El Polo Loco",
+        description: "OOP Javascript",
+        imgUrl: projectim5,
+        https: "https://atnbn.github.io/el_pollo_loco_object_orientation/"
     }]
     const Python = [{
 
