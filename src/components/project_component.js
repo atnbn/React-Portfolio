@@ -70,7 +70,7 @@ export const Projects = () => {
                                     <Nav.Link eventKey="first">Angular</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">JavaScript</Nav.Link>
+                                    <Nav.Link eventKey="second">JS</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">Python</Nav.Link>

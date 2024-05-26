@@ -12,9 +12,10 @@ export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
+    const [index, setIndex] = useState(1);
+
     const toRotate = [" Front End Developer", " Software Developer"];
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const [activeLink, setActiveLink] = useState('home');
     const period = 2000;
 
     useEffect(() => {
@@ -22,16 +23,12 @@ export const Banner = () => {
             tick();
         }, delta);
 
-        return () => { clearInterval(ticker); }
-    }, [text]);
+        return () => { clearInterval(ticker) };
+    }, [text])
 
-
-    const onUpdateActiveLink = (value) => {
-        setActiveLink(value);
-    }
 
     const tick = () => {
-        let i = loopNum % toRotate.length; // Corrected index calculation
+        let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
 
@@ -43,13 +40,17 @@ export const Banner = () => {
 
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
+            setIndex(prevIndex => prevIndex - 1);
             setDelta(period);
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
+            setIndex(1);
             setDelta(500);
+        } else {
+            setIndex(prevIndex => prevIndex + 1);
         }
-    };
+    }
 
     return (
         <Router>
@@ -61,7 +62,7 @@ export const Banner = () => {
                                 {({ isVisible }) =>
                                     <div className={isVisible ? "animate__animated animate__fadeIn" : ''}>
                                         <span className="tagline">Welcome to my Portfolio</span>
-                                        <h1>{`Hi, I'm Bünyamin Altan`}<span className="wrap">{text}</span></h1>
+                                        <h1 className="profession-title" >{`Hi, I'm Bünyamin Altan`}<span className="wrap">{text}</span></h1>
                                         <p>I am a self-taught programmer with a strong passion for creating visually appealing and user-friendly interfaces.
                                             I discovered my love for programming about three years ago, and it has been a passion of mine ever since.</p>
                                         <HashLink to="#connect">
