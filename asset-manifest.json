@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.2447c267.css",
-    "main.js": "/React-Portfolio/static/js/main.7ab28fdb.js",
+    "main.js": "/React-Portfolio/static/js/main.ddfbc375.js",
     "static/js/453.ed3810f9.chunk.js": "/React-Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/Elpololoco.png": "/React-Portfolio/static/media/Elpololoco.e4cea98cf7759ee8ce25.png",
     "static/media/color-sharp.png": "/React-Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -16,6 +16,7 @@
     "static/media/CentraNo2-Book.ttf": "/React-Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/Kanban.png": "/React-Portfolio/static/media/Kanban.1111a63456b6da5e5cf6.png",
     "static/media/footer-bg.png": "/React-Portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/Monster_Game.png": "/React-Portfolio/static/media/Monster_Game.9cbe228f37d89cb3cfc3.png",
     "static/media/contact-img.svg": "/React-Portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/React-Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/React-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -29,11 +30,11 @@
     "index.html": "/React-Portfolio/index.html",
     "static/media/nav-icon1.svg": "/React-Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.2447c267.css.map": "/React-Portfolio/static/css/main.2447c267.css.map",
-    "main.7ab28fdb.js.map": "/React-Portfolio/static/js/main.7ab28fdb.js.map",
+    "main.ddfbc375.js.map": "/React-Portfolio/static/js/main.ddfbc375.js.map",
     "453.ed3810f9.chunk.js.map": "/React-Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2447c267.css",
-    "static/js/main.7ab28fdb.js"
+    "static/js/main.ddfbc375.js"
   ]
 }
