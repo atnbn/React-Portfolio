@@ -6,6 +6,7 @@ import projectim2 from "../assets/img/Forkify.png";
 import projectim3 from "../assets/img/ringoffire.png";
 import projectim4 from "../assets/img/Slack.png";
 import projectim5 from "../assets/img/Elpololoco.png";
+import projectim6 from "../assets/img/Monster_Game.png";
 import TrackVisibility from "react-on-screen";
 import 'animate.css'
 export const Projects = () => {
@@ -14,20 +15,20 @@ export const Projects = () => {
         title: "Forkify",
         description: "Javascript",
         imgUrl: projectim2,
-        https: "silver-begonia-2336f4.netlify.app/"
+        link: "https://silver-begonia-2336f4.netlify.app/"
     },
     {
         title: "El Polo Loco",
         description: "OOP Javascript",
         imgUrl: projectim5,
-        https: "https://atnbn.github.io/el_pollo_loco_object_orientation/"
+        link: "https://atnbn.github.io/el_pollo_loco_object_orientation/"
     }]
-    const Python = [{
+    const vueProjects = [{
 
-        title: "Forkify",
-        description: "Javascript",
-        imgUrl: projectim2,
-        https: "silver-begonia-2336f4.netlify.app/"
+        title: "Monster Game",
+        description: "Vue",
+        imgUrl: projectim6,
+        link: "https://atnbn.github.io/Monster-Game/"
     }]
     const angularProjects = [
         {
@@ -73,7 +74,7 @@ export const Projects = () => {
                                     <Nav.Link eventKey="second">JS</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Python</Nav.Link>
+                                    <Nav.Link eventKey="third">Vue</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
@@ -92,6 +93,19 @@ export const Projects = () => {
                                 <Tab.Pane eventKey="second">
                                     <Row>
                                         {javaScriptProjects.map((project, index) => {
+                                            return (
+                                                <ProjectCard
+                                                    key={index}
+                                                    {...project}
+                                                />
+                                            );
+                                        })}
+                                    </Row>
+                                </Tab.Pane>
+
+                                <Tab.Pane eventKey="third">
+                                    <Row>
+                                        {vueProjects.map((project, index) => {
                                             return (
                                                 <ProjectCard
                                                     key={index}
