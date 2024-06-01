@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.2447c267.css",
-    "main.js": "/React-Portfolio/static/js/main.ddfbc375.js",
+    "main.css": "/React-Portfolio/static/css/main.35e86889.css",
+    "main.js": "/React-Portfolio/static/js/main.a34bf7c2.js",
     "static/js/453.ed3810f9.chunk.js": "/React-Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/Elpololoco.png": "/React-Portfolio/static/media/Elpololoco.e4cea98cf7759ee8ce25.png",
     "static/media/color-sharp.png": "/React-Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -29,12 +29,12 @@
     "static/media/github.svg": "/React-Portfolio/static/media/github.c84c4dcb6e973ce9635be3dbfa34d1b1.svg",
     "index.html": "/React-Portfolio/index.html",
     "static/media/nav-icon1.svg": "/React-Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.2447c267.css.map": "/React-Portfolio/static/css/main.2447c267.css.map",
-    "main.ddfbc375.js.map": "/React-Portfolio/static/js/main.ddfbc375.js.map",
+    "main.35e86889.css.map": "/React-Portfolio/static/css/main.35e86889.css.map",
+    "main.a34bf7c2.js.map": "/React-Portfolio/static/js/main.a34bf7c2.js.map",
     "453.ed3810f9.chunk.js.map": "/React-Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2447c267.css",
-    "static/js/main.ddfbc375.js"
+    "static/css/main.35e86889.css",
+    "static/js/main.a34bf7c2.js"
   ]
 }
