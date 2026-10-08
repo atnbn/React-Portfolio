@@ -3,7 +3,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
   const responsive = {
@@ -43,27 +42,27 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image"></img>
-                  <h5>JavaScript</h5>
+                  <img src={meter1} alt=""></img>
+                  <h5>JavaScript / TypeScript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image"></img>
+                  <img src={meter1} alt=""></img>
                   <h5>Angular</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image"></img>
-                  <h5>Typescript</h5>
+                  <img src={meter1} alt=""></img>
+                  <h5>React </h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image"></img>
+                  <img src={meter1} alt=""></img>
                   <h5>HTML & CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image"></img>
+                  <img src={meter2} alt=""></img>
                   <h5>Node Js</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image"></img>
+                  <img src={meter2} alt=""></img>
                   <h5>Vue</h5>
                 </div>
               </Carousel>

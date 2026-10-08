@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavbarComponent } from './components/navbar_component';
 import { Banner } from './components/banner_component';

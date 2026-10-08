@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
@@ -8,26 +8,17 @@ import { HashLink } from "react-router-hash-link";
 import {
     BrowserRouter as Router
 } from "react-router-dom";
+
+const toRotate = [" Front End Developer", " Software Developer"];
+const period = 2000;
+
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
-    const [index, setIndex] = useState(1);
-
-    const toRotate = [" Front End Developer", " Software Developer"];
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
 
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta);
-
-        return () => { clearInterval(ticker) };
-    }, [text])
-
-
-    const tick = () => {
+    const tick = useCallback(() => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
@@ -40,17 +31,18 @@ export const Banner = () => {
 
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
-            setIndex(prevIndex => prevIndex - 1);
             setDelta(period);
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
-            setLoopNum(loopNum + 1);
-            setIndex(1);
+            setLoopNum(prevLoopNum => prevLoopNum + 1);
             setDelta(500);
-        } else {
-            setIndex(prevIndex => prevIndex + 1);
         }
-    }
+    }, [isDeleting, loopNum, text]);
+
+    useEffect(() => {
+        const ticker = setInterval(tick, delta);
+        return () => clearInterval(ticker);
+    }, [delta, tick]);
 
     return (
         <Router>

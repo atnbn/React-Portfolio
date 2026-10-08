@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -54,7 +54,7 @@ export const NavbarComponent = () => {
                                 <a target='#blank' href="https://www.instagram.com/buni_at/"><img src={navIcon3} alt="Nav Icon 3" /></a>
                             </div>
                             <HashLink to="#connect">
-                                <button className='vvd' disa ><span>Let's Connect</span></button>
+                                <button className='vvd'><span>Let's Connect</span></button>
                             </HashLink>
                         </span>
                     </Navbar.Collapse>
