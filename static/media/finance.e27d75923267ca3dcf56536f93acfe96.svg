@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <title>FinTrack — Portfolio-Cover</title>
+  <desc>16:9-Illustration der Finanz-App FinTrack mit einem Dashboard-Mockup und fiktiven Beispieldaten auf dunkelblauem Hintergrund.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080F22"/>
+      <stop offset=".55" stop-color="#0D1B36"/>
+      <stop offset="1" stop-color="#101A30"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#2563EB" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="70" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="430" x2="0" y2="584" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#020617" flood-opacity=".6"/>
+    </filter>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" stroke="#94A3B8" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="window"><rect x="548" y="159" width="966" height="590" rx="20"/></clipPath>
+  </defs>
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="1030" cy="385" rx="740" ry="580" fill="url(#glow)"/>
+  <circle cx="1450" cy="95" r="288" stroke="#60A5FA" stroke-opacity=".09"/>
+  <circle cx="1450" cy="95" r="352" stroke="#60A5FA" stroke-opacity=".06"/>
+  <path d="M0 766C348 632 458 938 829 803S1320 758 1600 595" stroke="#60A5FA" stroke-opacity=".09" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(88 224)">
+      <rect width="70" height="70" rx="20" fill="url(#accent)"/>
+      <path d="M21 48V22H49M21 35H43" stroke="white" stroke-width="5" stroke-linecap="round"/>
+      <path d="M35 49L49 35" stroke="#BFDBFE" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="88" y="344" fill="#93C5FD" font-size="13" font-weight="700" letter-spacing="3">PERSONAL FINANCE, SIMPLIFIED</text>
+    <text x="83" y="429" fill="#F8FAFC" font-size="80" font-weight="700" letter-spacing="-4">FinTrack</text>
+    <text x="88" y="482" fill="#E2E8F0" font-size="27" font-weight="500">Deine Finanzen.</text>
+    <text x="88" y="521" fill="#E2E8F0" font-size="27" font-weight="500">Dein Überblick.</text>
+    <text x="88" y="570" fill="#94A3B8" font-size="17">Ausgaben verstehen. Budgets planen.</text>
+    <text x="88" y="597" fill="#94A3B8" font-size="17">Mehr Kontrolle im Alltag.</text>
+    <rect x="88" y="639" width="117" height="34" rx="17" fill="#152743" stroke="#294061"/>
+    <text x="146.5" y="661" text-anchor="middle" fill="#BFDBFE" font-size="12">Dashboard</text>
+    <rect x="215" y="639" width="94" height="34" rx="17" fill="#152743" stroke="#294061"/>
+    <text x="262" y="661" text-anchor="middle" fill="#BFDBFE" font-size="12">Budgets</text>
+    <rect x="319" y="639" width="102" height="34" rx="17" fill="#152743" stroke="#294061"/>
+    <text x="370" y="661" text-anchor="middle" fill="#BFDBFE" font-size="12">Analytics</text>
+
+    <rect x="548" y="159" width="966" height="590" rx="20" fill="#0F172A" filter="url(#shadow)"/>
+    <g clip-path="url(#window)">
+      <rect x="548" y="159" width="966" height="42" fill="#182338"/>
+      <circle cx="571" cy="180" r="4" fill="#F87171"/>
+      <circle cx="586" cy="180" r="4" fill="#FBBF24"/>
+      <circle cx="601" cy="180" r="4" fill="#4ADE80"/>
+      <rect x="868" y="169" width="316" height="22" rx="6" fill="#0F172A"/>
+      <path d="M991 177V175A3 3 0 0 1 997 175V177M990 177H998V183H990Z" stroke="#64748B" stroke-width="1.2"/>
+      <text x="1006" y="183" fill="#94A3B8" font-size="10">FinTrack / Dashboard</text>
+      <rect x="548" y="201" width="164" height="548" fill="#111C30"/>
+      <path d="M712 201V749" stroke="#233047"/>
+      <rect x="570" y="226" width="25" height="25" rx="7" fill="#2563EB"/>
+      <path d="M578 244V233H588M578 238H586" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      <text x="604" y="245" fill="#F8FAFC" font-size="18" font-weight="700">FinTrack</text>
+      <text x="571" y="284" fill="#64748B" font-size="9" font-weight="700" letter-spacing="1.7">WORKSPACE</text>
+      <rect x="562" y="300" width="136" height="38" rx="8" fill="#2563EB"/>
+      <g stroke="#EFF6FF" stroke-width="1.5">
+        <rect x="576" y="312" width="5" height="5" rx="1"/>
+        <rect x="584" y="312" width="5" height="5" rx="1"/>
+        <rect x="576" y="320" width="5" height="5" rx="1"/>
+        <rect x="584" y="320" width="5" height="5" rx="1"/>
+      </g>
+      <text x="600" y="324" fill="white" font-size="12" font-weight="700">Dashboard</text>
+      <g fill="#94A3B8" font-size="12">
+        <text x="600" y="369">Transactions</text>
+        <text x="600" y="413">Analytics</text>
+        <text x="600" y="457">Budgets</text>
+        <text x="600" y="501">Settings</text>
+      </g>
+      <g stroke="#8192AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M575 360H589L585 356M589 368H575L579 372"/>
+        <path d="M576 414V408M582 414V402M588 414V396"/>
+        <circle cx="582" cy="452" r="7"/>
+        <circle cx="582" cy="452" r="3"/>
+        <path d="M575 496H589M575 501H589M579 493V499M586 498V504"/>
+      </g>
+      <rect x="562" y="675" width="136" height="55" rx="9" fill="#19263B"/>
+      <circle cx="582" cy="702" r="11" fill="#2D4263"/>
+      <text x="582" y="706" text-anchor="middle" fill="#BFDBFE" font-size="10" font-weight="700">JD</text>
+      <text x="601" y="698" fill="#E2E8F0" font-size="10" font-weight="700">Demo account</text>
+      <text x="601" y="714" fill="#64748B" font-size="9">Personal workspace</text>
+
+      <text x="737" y="243" fill="#F8FAFC" font-size="23" font-weight="700">Financial overview</text>
+      <text x="737" y="265" fill="#94A3B8" font-size="11">A clearer picture of your money.</text>
+      <rect x="1372" y="229" width="115" height="30" rx="7" fill="#19263B" stroke="#2A3850"/>
+      <text x="1387" y="248" fill="#CBD5E1" font-size="11">October 2026</text>
+      <path d="M1470 242L1474 246L1478 242" stroke="#94A3B8" stroke-width="1.5"/>
+
+      <rect x="737" y="287" width="176" height="98" rx="11" fill="#172C50" stroke="#2D4F80"/>
+      <rect x="928" y="287" width="176" height="98" rx="11" fill="#152136" stroke="#233047"/>
+      <rect x="1119" y="287" width="176" height="98" rx="11" fill="#152136" stroke="#233047"/>
+      <rect x="1310" y="287" width="177" height="98" rx="11" fill="#152136" stroke="#233047"/>
+      <g fill="#94A3B8" font-size="11">
+        <text x="754" y="311" fill="#BFDBFE">Balance</text>
+        <text x="945" y="311">Income</text>
+        <text x="1136" y="311">Expenses</text>
+        <text x="1327" y="311">Savings rate</text>
+      </g>
+      <g font-size="26" font-weight="700" letter-spacing="-.7">
+        <text x="754" y="344" fill="#F8FAFC">€ 8,240</text>
+        <text x="945" y="344" fill="#4ADE80">€ 4,200</text>
+        <text x="1136" y="344" fill="#F87171">€ 2,860</text>
+        <text x="1327" y="344" fill="#F8FAFC">32%</text>
+      </g>
+      <g font-size="10">
+        <text x="754" y="367" fill="#93C5FD">Your current balance</text>
+        <text x="945" y="367" fill="#64748B">This month</text>
+        <text x="1136" y="367" fill="#64748B">This month</text>
+        <text x="1327" y="367" fill="#4ADE80">€ 1,340 saved</text>
+      </g>
+
+      <rect x="737" y="401" width="462" height="220" rx="11" fill="#152136" stroke="#233047"/>
+      <text x="755" y="430" fill="#E2E8F0" font-size="13" font-weight="700">Cash flow</text>
+      <circle cx="1060" cy="426" r="3" fill="#60A5FA"/>
+      <text x="1069" y="430" fill="#94A3B8" font-size="9">Income</text>
+      <circle cx="1127" cy="426" r="3" fill="#4ADE80"/>
+      <text x="1136" y="430" fill="#94A3B8" font-size="9">Expenses</text>
+      <g stroke="#28364C" stroke-dasharray="3 5">
+        <path d="M787 460H1177M787 500H1177M787 540H1177M787 580H1177"/>
+      </g>
+      <g fill="#64748B" font-size="9">
+        <text x="755" y="463">4.5k</text>
+        <text x="755" y="503">3.0k</text>
+        <text x="755" y="543">1.5k</text>
+        <text x="768" y="583">0</text>
+        <text x="785" y="602">May</text>
+        <text x="859" y="602">Jun</text>
+        <text x="935" y="602">Jul</text>
+        <text x="1010" y="602">Aug</text>
+        <text x="1085" y="602">Sep</text>
+        <text x="1160" y="602">Oct</text>
+      </g>
+      <path d="M793 515C818 515 840 485 868 490S916 521 944 506S995 454 1020 465S1069 496 1096 476S1148 451 1171 453V580H793Z" fill="url(#area)"/>
+      <path d="M793 515C818 515 840 485 868 490S916 521 944 506S995 454 1020 465S1069 496 1096 476S1148 451 1171 453" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+      <path d="M793 548C819 548 843 530 868 535S919 543 944 534S995 520 1020 524S1071 537 1096 527S1148 510 1171 504" stroke="#4ADE80" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="1171" cy="453" r="4" fill="#60A5FA" stroke="#152136" stroke-width="2"/>
+
+      <rect x="1214" y="401" width="273" height="220" rx="11" fill="#152136" stroke="#233047"/>
+      <text x="1232" y="430" fill="#E2E8F0" font-size="13" font-weight="700">Spending breakdown</text>
+      <g transform="rotate(-90 1289 525)" stroke-width="15">
+        <circle cx="1289" cy="525" r="48" stroke="#27364D"/>
+        <circle cx="1289" cy="525" r="48" stroke="#60A5FA" stroke-dasharray="119 303"/>
+        <circle cx="1289" cy="525" r="48" stroke="#818CF8" stroke-dasharray="81 303" stroke-dashoffset="-124"/>
+        <circle cx="1289" cy="525" r="48" stroke="#34D399" stroke-dasharray="52 303" stroke-dashoffset="-210"/>
+        <circle cx="1289" cy="525" r="48" stroke="#FBBF24" stroke-dasharray="31 303" stroke-dashoffset="-267"/>
+      </g>
+      <text x="1289" y="523" text-anchor="middle" fill="#F8FAFC" font-size="17" font-weight="700">€ 2,860</text>
+      <text x="1289" y="540" text-anchor="middle" fill="#64748B" font-size="9">total spent</text>
+      <g font-size="10" fill="#CBD5E1">
+        <circle cx="1364" cy="482" r="3" fill="#60A5FA"/>
+        <text x="1375" y="486">Housing</text>
+        <circle cx="1364" cy="508" r="3" fill="#818CF8"/>
+        <text x="1375" y="512">Food</text>
+        <circle cx="1364" cy="534" r="3" fill="#34D399"/>
+        <text x="1375" y="538">Transport</text>
+        <circle cx="1364" cy="560" r="3" fill="#FBBF24"/>
+        <text x="1375" y="564">Other</text>
+      </g>
+      <text x="1232" y="602" fill="#64748B" font-size="9">Your spending, organized by category.</text>
+
+      <rect x="737" y="637" width="750" height="91" rx="11" fill="#152136" stroke="#233047"/>
+      <text x="755" y="661" fill="#E2E8F0" font-size="13" font-weight="700">Recent transactions</text>
+      <text x="1469" y="661" text-anchor="end" fill="#60A5FA" font-size="10">View all</text>
+      <path d="M755 672H1469" stroke="#233047"/>
+      <rect x="755" y="683" width="27" height="27" rx="7" fill="#123A30"/>
+      <path d="M764 697L768 701L774 692M768 689V701" stroke="#4ADE80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="795" y="694" fill="#E2E8F0" font-size="11" font-weight="700">Monthly salary</text>
+      <text x="795" y="709" fill="#64748B" font-size="9">Income · October 1</text>
+      <rect x="1119" y="687" width="61" height="20" rx="10" fill="#123A30"/>
+      <text x="1149.5" y="701" text-anchor="middle" fill="#4ADE80" font-size="9">Income</text>
+      <text x="1469" y="702" text-anchor="end" fill="#4ADE80" font-size="13" font-weight="700">+ € 4,200.00</text>
+    </g>
+    <rect x="548.5" y="159.5" width="965" height="589" rx="19.5" stroke="#3B4D6B" stroke-opacity=".8"/>
+
+    <g filter="url(#shadow)">
+      <rect x="1232" y="699" width="260" height="93" rx="15" fill="#172B3C" stroke="#345853"/>
+      <circle cx="1268" cy="745" r="18" fill="#174B3B"/>
+      <path d="M1260 745L1266 751L1276 740" stroke="#4ADE80" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1297" y="737" fill="#F0FDF4" font-size="14" font-weight="700">Budget on track</text>
+      <text x="1297" y="759" fill="#91B5AB" font-size="11">More clarity. Less guesswork.</text>
+    </g>
+    <path d="M88 816H1512" stroke="#31405A" stroke-opacity=".6"/>
+    <text x="88" y="852" fill="#64748B" font-size="12" letter-spacing="1.5">FINANCE TRACKER</text>
+    <text x="1512" y="852" text-anchor="end" fill="#64748B" font-size="12">Dashboard mockup · Sample data</text>
+  </g>
+</svg>
