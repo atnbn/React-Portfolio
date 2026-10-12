@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.9665162f.css",
-    "main.js": "/React-Portfolio/static/js/main.b98a87c4.js",
+    "main.js": "/React-Portfolio/static/js/main.6e6c218f.js",
     "static/js/453.ed3810f9.chunk.js": "/React-Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/color-sharp.png": "/React-Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/React-Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -16,6 +16,7 @@
     "static/media/revicons.eot": "/React-Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/React-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/React-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meal-planner.svg": "/React-Portfolio/static/media/meal-planner.c9d97966c4626f979f5ca5f51a2b1892.svg",
     "static/media/meter2.svg": "/React-Portfolio/static/media/meter2.a0050a378a929877ac8144049ee0a1bf.svg",
     "static/media/meter1.svg": "/React-Portfolio/static/media/meter1.c61a2fc3fdd79d551b751c6c0f890ab6.svg",
     "static/media/nav-icon3.svg": "/React-Portfolio/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
@@ -23,11 +24,11 @@
     "index.html": "/React-Portfolio/index.html",
     "static/media/nav-icon1.svg": "/React-Portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "main.9665162f.css.map": "/React-Portfolio/static/css/main.9665162f.css.map",
-    "main.b98a87c4.js.map": "/React-Portfolio/static/js/main.b98a87c4.js.map",
+    "main.6e6c218f.js.map": "/React-Portfolio/static/js/main.6e6c218f.js.map",
     "453.ed3810f9.chunk.js.map": "/React-Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9665162f.css",
-    "static/js/main.b98a87c4.js"
+    "static/js/main.6e6c218f.js"
   ]
 }
