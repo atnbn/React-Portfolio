@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171622"/>
+      <stop offset="1" stop-color="#0b0b10"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8172ff"/>
+      <stop offset="1" stop-color="#5743df"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+  <rect x="32" y="30" width="1136" height="72" rx="18" fill="#12121a" stroke="#292833" stroke-width="2"/>
+  <rect x="54" y="45" width="42" height="42" rx="14" fill="url(#accent)"/>
+  <path d="M75 53v26M62 66h26M66 57l18 18m0-18L66 75" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <text x="112" y="74" fill="#f7f6fb" font-family="Arial, sans-serif" font-size="27" font-weight="700">Meal Planner</text>
+  <rect x="911" y="46" width="229" height="42" rx="14" fill="url(#accent)"/>
+  <text x="936" y="73" fill="#fff" font-family="Arial, sans-serif" font-size="17" font-weight="700">Plan erstellen</text>
+  <path d="M1105 67h17m-7-7 7 7-7 7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="74" y="157" fill="#a9a5bb" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">DEIN WOCHENPLAN</text>
+  <text x="74" y="198" fill="#fff" font-family="Arial, sans-serif" font-size="29" font-weight="700">Montag</text>
+  <rect x="74" y="218" width="676" height="102" rx="20" fill="#171720" stroke="#302e3b" stroke-width="2"/>
+  <rect x="94" y="238" width="62" height="62" rx="17" fill="#222039"/>
+  <text x="114" y="277" fill="#b4aaff" font-family="Arial, sans-serif" font-size="20" font-weight="700">Fr</text>
+  <text x="177" y="261" fill="#f7f6fb" font-family="Arial, sans-serif" font-size="22" font-weight="700">Haferflocken mit Beeren</text>
+  <text x="177" y="289" fill="#a9a5bb" font-family="Arial, sans-serif" font-size="17">550 kcal</text>
+  <rect x="685" y="251" width="22" height="22" rx="11" fill="#1d382b"/>
+  <path d="m692 262 5 5 8-10" stroke="#59d394" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="74" y="336" width="676" height="102" rx="20" fill="#171720" stroke="#6657e7" stroke-width="3"/>
+  <rect x="94" y="356" width="62" height="62" rx="17" fill="#222039"/>
+  <text x="113" y="395" fill="#b4aaff" font-family="Arial, sans-serif" font-size="20" font-weight="700">Mi</text>
+  <text x="177" y="379" fill="#f7f6fb" font-family="Arial, sans-serif" font-size="22" font-weight="700">Hähnchen mit Reis und Gemüse</text>
+  <text x="177" y="407" fill="#a9a5bb" font-family="Arial, sans-serif" font-size="17">850 kcal · 25 Min.</text>
+  <rect x="685" y="369" width="22" height="22" rx="11" fill="#1d382b"/>
+  <path d="m692 380 5 5 8-10" stroke="#59d394" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="74" y="454" width="676" height="102" rx="20" fill="#171720" stroke="#302e3b" stroke-width="2"/>
+  <rect x="94" y="474" width="62" height="62" rx="17" fill="#222039"/>
+  <text x="112" y="513" fill="#b4aaff" font-family="Arial, sans-serif" font-size="20" font-weight="700">Ab</text>
+  <text x="177" y="497" fill="#f7f6fb" font-family="Arial, sans-serif" font-size="22" font-weight="700">Lachs mit Kartoffeln und Salat</text>
+  <text x="177" y="525" fill="#a9a5bb" font-family="Arial, sans-serif" font-size="17">700 kcal · 25 Min.</text>
+  <rect x="788" y="137" width="338" height="267" rx="22" fill="#15151e" stroke="#302e3b" stroke-width="2"/>
+  <text x="817" y="177" fill="#f7f6fb" font-family="Arial, sans-serif" font-size="20" font-weight="700">Makro-Verteilung</text>
+  <rect x="817" y="199" width="280" height="12" rx="6" fill="#292735"/>
+  <rect x="817" y="199" width="104" height="12" rx="6" fill="#f6a45f"/>
+  <rect x="921" y="199" width="87" height="12" fill="#8d7bff"/>
+  <rect x="1008" y="199" width="89" height="12" rx="6" fill="#55cba7"/>
+  <circle cx="830" cy="250" r="5" fill="#f6a45f"/>
+  <text x="847" y="256" fill="#d9d7e3" font-family="Arial, sans-serif" font-size="16">Kohlenhydrate</text>
+  <text x="1067" y="256" fill="#fff" font-family="Arial, sans-serif" font-size="16" text-anchor="end">42%</text>
+  <circle cx="830" cy="286" r="5" fill="#8d7bff"/>
+  <text x="847" y="292" fill="#d9d7e3" font-family="Arial, sans-serif" font-size="16">Protein</text>
+  <text x="1067" y="292" fill="#fff" font-family="Arial, sans-serif" font-size="16" text-anchor="end">31%</text>
+  <circle cx="830" cy="322" r="5" fill="#55cba7"/>
+  <text x="847" y="328" fill="#d9d7e3" font-family="Arial, sans-serif" font-size="16">Fett</text>
+  <text x="1067" y="328" fill="#fff" font-family="Arial, sans-serif" font-size="16" text-anchor="end">27%</text>
+  <rect x="788" y="426" width="338" height="177" rx="22" fill="#15151e" stroke="#302e3b" stroke-width="2"/>
+  <circle cx="823" cy="463" r="15" fill="#222039"/>
+  <path d="M816 457h14l-2 12h-10l-2-12Zm3 0-2-4m7 4 2-4" stroke="#b4aaff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="850" y="469" fill="#f7f6fb" font-family="Arial, sans-serif" font-size="19" font-weight="700">Einkaufsliste</text>
+  <text x="1092" y="469" fill="#aaa6bc" font-family="Arial, sans-serif" font-size="16" text-anchor="end">2/3</text>
+  <rect x="817" y="490" width="20" height="20" rx="6" fill="#6756e8"/>
+  <path d="m822 500 4 4 7-8" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="850" y="506" fill="#b9b6c6" font-family="Arial, sans-serif" font-size="16">Haferflocken</text>
+  <text x="1092" y="506" fill="#b9b6c6" font-family="Arial, sans-serif" font-size="16" text-anchor="end">320 g</text>
+  <rect x="817" y="526" width="20" height="20" rx="6" fill="#6756e8"/>
+  <path d="m822 536 4 4 7-8" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="850" y="542" fill="#b9b6c6" font-family="Arial, sans-serif" font-size="16">Hähnchenbrust</text>
+  <text x="1092" y="542" fill="#b9b6c6" font-family="Arial, sans-serif" font-size="16" text-anchor="end">1,4 kg</text>
+  <rect x="817" y="562" width="20" height="20" rx="6" stroke="#777486" stroke-width="2"/>
+  <text x="850" y="578" fill="#f7f6fb" font-family="Arial, sans-serif" font-size="16">Brokkoli</text>
+  <text x="1092" y="578" fill="#b9b6c6" font-family="Arial, sans-serif" font-size="16" text-anchor="end">1,4 kg</text>
+</svg>

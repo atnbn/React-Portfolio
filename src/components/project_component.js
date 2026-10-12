@@ -2,6 +2,7 @@ import { Col, Row, Container, TabContainer, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./projectCard.js";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projectim1 from "../assets/img/finance.svg";
+import mealPlannerPreview from "../assets/img/meal-planner.svg";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 export const Projects = () => {
@@ -11,6 +12,12 @@ export const Projects = () => {
       description: "React Node.js PostgreSQL",
       imgUrl: projectim1,
       link: "https://www.atnbnm.online/",
+    },
+    {
+      title: "Meal Planner",
+      description: "Next.js React Tailwind CSS",
+      imgUrl: mealPlannerPreview,
+      link: "https://meal-planer-public.vercel.app/",
     },
   ];
 
