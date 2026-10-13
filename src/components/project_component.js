@@ -3,6 +3,7 @@ import { ProjectCard } from "./projectCard.js";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projectim1 from "../assets/img/finance.svg";
 import mealPlannerPreview from "../assets/img/meal-planner.svg";
+import aniTrackerPreview from "../assets/img/anitracker.svg";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 export const Projects = () => {
@@ -18,6 +19,13 @@ export const Projects = () => {
       description: "Next.js React Tailwind CSS",
       imgUrl: mealPlannerPreview,
       link: "https://meal-planer-public.vercel.app/",
+    },
+    {
+      title: "AniTracker",
+      description: "React Supabase",
+      imgUrl: aniTrackerPreview,
+      link: "https://anime-tracker-chi-sooty.vercel.app/home",
+      svgDocument: true,
     },
   ];
 
@@ -69,14 +77,20 @@ export const Projects = () => {
                   <div className="coming-soon">
                     <span>IN PROGRESS</span>
                     <h3>Angular projects coming soon</h3>
-                    <p>I'm preparing some new work to share here. Check back soon!</p>
+                    <p>
+                      I'm preparing some new work to share here. Check back
+                      soon!
+                    </p>
                   </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <div className="coming-soon">
                     <span>IN PROGRESS</span>
                     <h3>Vue projects coming soon</h3>
-                    <p>I'm preparing some new work to share here. Check back soon!</p>
+                    <p>
+                      I'm preparing some new work to share here. Check back
+                      soon!
+                    </p>
                   </div>
                 </Tab.Pane>
               </Tab.Content>

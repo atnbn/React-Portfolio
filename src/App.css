@@ -717,6 +717,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
    margin-bottom: 24px;
  }
 
+ .proj-preview-document {
+   display: block;
+   width: 100%;
+   height: auto;
+ }
+
  .proj-imgbx::before {
    content: "";
    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
