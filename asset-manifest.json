@@ -1,35 +1,35 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.81966d7e.css",
-    "main.js": "/React-Portfolio/static/js/main.7745c528.js",
+    "main.js": "/React-Portfolio/static/js/main.f3b52b16.js",
     "static/js/453.ed3810f9.chunk.js": "/React-Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/color-sharp.png": "/React-Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/React-Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/React-Portfolio/static/media/banner-bg.cc1273af450504afe755.png",
-    "static/media/header-img.svg": "/React-Portfolio/static/media/header-img.400baa4260daac98f2b2b1ccf08761c2.svg",
+    "static/media/header-img.svg": "/React-Portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/React-Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/React-Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/React-Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/React-Portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/contact-img.svg": "/React-Portfolio/static/media/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg",
-    "static/media/anitracker.svg": "/React-Portfolio/static/media/anitracker.7756b02ec53630cf98be039dd7478c5e.svg",
-    "static/media/finance.svg": "/React-Portfolio/static/media/finance.e27d75923267ca3dcf56536f93acfe96.svg",
+    "static/media/contact-img.svg": "/React-Portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/anitracker.svg": "/React-Portfolio/static/media/anitracker.2fc255cb94db62656db50f13a46bf79a.svg",
+    "static/media/finance.svg": "/React-Portfolio/static/media/finance.e0847fe06b0cc7af16235b68830d95be.svg",
     "static/media/revicons.eot": "/React-Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/React-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/React-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/meal-planner.svg": "/React-Portfolio/static/media/meal-planner.c9d97966c4626f979f5ca5f51a2b1892.svg",
-    "static/media/meter2.svg": "/React-Portfolio/static/media/meter2.a0050a378a929877ac8144049ee0a1bf.svg",
-    "static/media/meter1.svg": "/React-Portfolio/static/media/meter1.c61a2fc3fdd79d551b751c6c0f890ab6.svg",
-    "static/media/nav-icon3.svg": "/React-Portfolio/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
-    "static/media/github.svg": "/React-Portfolio/static/media/github.ec45799fea846813b52e4f380c80fdd3.svg",
+    "static/media/meal-planner.svg": "/React-Portfolio/static/media/meal-planner.f3e7aeb5a1fbf9282165a74f88e27fae.svg",
+    "static/media/meter2.svg": "/React-Portfolio/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/React-Portfolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/nav-icon3.svg": "/React-Portfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/github.svg": "/React-Portfolio/static/media/github.c84c4dcb6e973ce9635be3dbfa34d1b1.svg",
     "index.html": "/React-Portfolio/index.html",
-    "static/media/nav-icon1.svg": "/React-Portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "static/media/nav-icon1.svg": "/React-Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.81966d7e.css.map": "/React-Portfolio/static/css/main.81966d7e.css.map",
-    "main.7745c528.js.map": "/React-Portfolio/static/js/main.7745c528.js.map",
+    "main.f3b52b16.js.map": "/React-Portfolio/static/js/main.f3b52b16.js.map",
     "453.ed3810f9.chunk.js.map": "/React-Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81966d7e.css",
-    "static/js/main.7745c528.js"
+    "static/js/main.f3b52b16.js"
   ]
 }
