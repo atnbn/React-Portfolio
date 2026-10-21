@@ -7,13 +7,15 @@ import aniTrackerPreview from "../assets/img/anitracker.svg";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 export const Projects = () => {
-  const reactProjects = [
+  const vueProjects = [
     {
       title: "FinanzApp",
-      description: "React Node.js PostgreSQL",
+      description: "Vue Node.js PostgreSQL",
       imgUrl: projectim1,
       link: "https://www.atnbnm.online/",
     },
+  ];
+  const reactProjects = [
     {
       title: "Meal Planner",
       description: "Next.js React Tailwind CSS",
@@ -84,14 +86,9 @@ export const Projects = () => {
                   </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <div className="coming-soon">
-                    <span>IN PROGRESS</span>
-                    <h3>Vue projects coming soon</h3>
-                    <p>
-                      I'm preparing some new work to share here. Check back
-                      soon!
-                    </p>
-                  </div>
+                  {vueProjects.map((project, index) => {
+                    return <ProjectCard key={index} {...project} />;
+                  })}
                 </Tab.Pane>
               </Tab.Content>
             </TabContainer>
