@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+## Contact form setup
+
+Copy `.env.example` to `.env.local` and enter your EmailJS service ID, template ID and public key. The previous `REACT_APP_EMAILJS_USER_ID` name is also supported. Restart the dev server after changing configuration; production deployments need a new build with these variables set.
+
+In your EmailJS template, set the recipient to your own email address and Reply-To to `{{reply_to}}`. Use `{{from_name}}`, `{{from_email}}`, `{{message}}` and optionally `{{phoneNumber}}` in the message. Existing `{{firstName}}`, `{{lastName}}` and `{{email}}` variables remain supported. Use your connected service's address as the sender. Only public EmailJS configuration belongs in these frontend variables; never add SMTP passwords or private keys.
+
+Optionally set `REACT_APP_CONTACT_EMAIL` to offer a prefilled email draft in the visitor's email app, including when EmailJS is not configured. The visitor must send the draft from their email app. Without either configuration, the form explains that sending is unavailable.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
